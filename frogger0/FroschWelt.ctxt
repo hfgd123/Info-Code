@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=FroschWelt
+comment0.text=\r\n\ Die\ Welt,\ in\ der\ sich\ Fr\u00F6sche\ tummeln.\r\n\ \r\n\ @author\ Stephan\ Bayer\r\n\ @version\ 6/1/2010\r\n
+comment1.params=
+comment1.target=FroschWelt()
+comment1.text=\r\n\ Konstruktor\ einer\ Froschwelt\r\n\ \r\n
+numComments=2
