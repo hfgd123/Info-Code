@@ -8,9 +8,8 @@ comment2.target=void\ act()
 comment3.params=
 comment3.target=void\ moving()
 comment4.params=
-comment4.target=void\ fire()
+comment4.target=void\ firecheck()
+comment4.text=public\ void\ fire(){\r\n\ \ \ \ \ \ \ \ Fire\ f\ \=\ new\ Fire(this);\r\n\ \ \ \ \ \ \ \ getWorld().addObject(f,\ getX(),getY()-20);\r\n\ \ \ \ \ \ \ \ firecheck();\r\n}
 comment5.params=
-comment5.target=void\ firecheck()
-comment6.params=
-comment6.target=void\ enemykilled()
-numComments=7
+comment5.target=void\ enemykilled()
+numComments=6
