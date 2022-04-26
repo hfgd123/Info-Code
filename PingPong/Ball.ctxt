@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Ball
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Ball\ here.\r\n\ \r\n\ @author\ Krusch\ Patrick\r\n\ @version\ 24.06.15\r\n
+comment1.params=x\ y\ s1\ s2
+comment1.target=Ball(int,\ int,\ Schlaeger,\ Schlaeger)
+comment10.params=
+comment10.target=int\ getScore2()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ bewegen()
+comment4.params=
+comment4.target=void\ punkteGeben()
+comment5.params=
+comment5.target=void\ spielEnde()
+comment6.params=
+comment6.target=void\ abprallenX()
+comment7.params=
+comment7.target=void\ abprallenY()
+comment8.params=
+comment8.target=void\ checkSchlaeger()
+comment9.params=
+comment9.target=int\ getScore1()
+numComments=11
