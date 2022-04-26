@@ -10,28 +10,31 @@ import java.util.*;
 public class Fire extends Actor
 {
     private boolean alive;
-    
-    public Fire(){
+    private Hero hero;
+
+    public Fire(Hero h){
         alive = true;
         setRotation(270);
+        hero = h;
     }
-    
-    
+
     public void act() 
     {
+        if(alive){
+            fly();
+            kollision();
+        }
         /*Falls das Objekt "lebt" (alive) fliegt es und prüft auf kollisionen.       
-        */
+         */
     }    
-    
-    
+
     public void fly(){
+        move(5);
         //Das Objekt bewegt sich 5 Schritte in Blickrichtung
-        
     }
-    
+
     public void kollision(){
-        //Nach Erstellung der Beziehung auskommentieren
-        /*if(isTouching(Enemy.class)){
+        if(isTouching(Enemy.class)){
             removeTouching(Enemy.class);
             alive = false;
             hero.firecheck();
@@ -43,8 +46,7 @@ public class Fire extends Actor
             hero.firecheck();
             getWorld().removeObject(this);
             return;
-        }*/
+        }
     }
-    
-    
+
 }
